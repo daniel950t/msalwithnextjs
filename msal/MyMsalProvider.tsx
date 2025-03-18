@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import { initializeMsal, msalInstance } from "@/msal/msal";
-import { AuthenticatedTemplate, MsalProvider, UnauthenticatedTemplate } from "@azure/msal-react"
+import { AuthenticatedTemplate, MsalProvider, UnauthenticatedTemplate } from "@arjenbloemsma/msal-react"
 import UnauthorizedMessage from "@/components/UnauthorizedMessage";
 
 export default function MyMsalProvider({ children }: { children: React.ReactNode }) {

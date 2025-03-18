@@ -6,7 +6,8 @@ export default function GetTokenTestPage() {
     useEffect(() => {
         async function fetchToken() {
             await getToken().then(response => {
-                alert(`token is ${response}`)
+                alert(`token is ${response}`);
+                console.log("token is", response);
             });
         }
         fetchToken();

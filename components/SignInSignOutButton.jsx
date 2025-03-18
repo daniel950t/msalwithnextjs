@@ -1,6 +1,6 @@
 "use client"
 
-import { useIsAuthenticated, useMsal } from "@azure/msal-react";
+import { useIsAuthenticated, useMsal } from "@arjenbloemsma/msal-react";
 import { SignInButton } from "./SignInButton";
 import { SignOutButton } from "./SignOutButton";
 import { InteractionStatus } from "@azure/msal-browser";
